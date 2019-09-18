@@ -63,7 +63,7 @@ footer{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    height: 680px;
     padding-left: 30px;
     padding-right: 30px;
     background: #ffffff;
@@ -93,3 +93,55 @@ hr{
     background:#dddddd;
     border:none;
 }
+h2{
+    color: #888e94;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.name,.email{
+    width: 892px;
+    padding: 4px;
+}
+.message{
+    width: 900px;
+    height: 400px;
+    overflow:auto;
+}
+.submit{
+    background: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    padding: 4px 12px;
+    text-align:center;
+    display: block;
+
+}
+.portfolio-pic{
+   display: flex;
+   margin-top: 20px;
+   margin-right: 20px;
+   height: 170px;
+   position: relative;
+}
+.portfolio-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 600px;
+}
+.pic-placeholder{
+    position: absolute;
+    top: 70%;
+    height: 20px;
+    width: 400px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0;
+}
+
